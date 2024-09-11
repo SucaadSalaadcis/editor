@@ -21,7 +21,7 @@ const App = () => {
         placeholder="Type your text here..." // Set placeholder text
         modules={{
           toolbar: [ // Configure toolbar options
-            [{ 'header': [1, 2, false] }],
+            [{ 'header': [1, 2,3,4, false] }],
             ['bold', 'italic', 'underline', 'strike'],
             [{ 'list': 'ordered'}, { 'list': 'bullet' }],
             ['link', 'image'],
